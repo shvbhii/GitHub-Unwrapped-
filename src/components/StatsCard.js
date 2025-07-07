@@ -51,7 +51,7 @@ export default function StatsCard({ data, username }) {
           <div>
             <h3 className="text-lg font-bold mb-3 text-left">Top Languages</h3>
             <div className="space-y-3">
-              {data.topLanguages.map(({ language, count }) => (
+              {data.topLanguages?.map(({ language, count }) => (
                 <div key={language}>
                   <div className="flex justify-between mb-1">
                     <span className="text-sm font-medium">{language}</span>
@@ -70,7 +70,7 @@ export default function StatsCard({ data, username }) {
         <div className="lg:col-span-1 lg:order-3 order-3">
             <h3 className="text-lg font-bold mb-3 text-left">Most Starred Repositories</h3>
             <div className="space-y-3">
-              {data.topRepos.map(repo => (
+              {data.topRepos?.map(repo => (
                 <a key={repo.name} href={repo.url} target="_blank" rel="noopener noreferrer" className="block p-4 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors">
                   <div className="flex justify-between items-center">
                     <p className="font-bold truncate">{repo.name}</p>

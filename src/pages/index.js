@@ -56,7 +56,7 @@ export default function Home() {
 
         {error && <p className="mt-4 text-red-400">{error}</p>}
         
-        {data && <StatsCard data={data} username={username} />}
+        {data && <StatsCard key={username} data={data} username={username} />}
       </div>
       
       <Footer />

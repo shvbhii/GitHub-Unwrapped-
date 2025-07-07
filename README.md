@@ -1,15 +1,16 @@
 # GitHub Unwrapped 
 
-![GitHub Unwrapped Demo](./demo.gif)
+![GitHub Unwrapped Demo](./public/github-unwrapped1.png)
+![GitHub Unwrapped Demo](./public/github-unwrapped2%20(2).png)
 *(A dynamic web app to generate a beautiful, shareable "Spotify Wrapped" style stats card for any GitHub user.)*
 
 ---
 
-### ✨ [View Live Demo](https://demo.vercel.app) ✨
+### ✨ [View Live Demo](https://git-hub-unwrapped.vercel.app/) ✨
 
 ---
 
-This project is **Day 7** of my **[#30DaysOfVibeCoding](https://www.linkedin.com/feed/hashtag/?keywords=30daysofvibecoding)** challenge.
+This project is **Day 7** of my **[#30DaysOfVibeCoding](https://www.linkedin.com/in/shvbhi)** challenge.
 
 ## 🚀 About The Project
 
